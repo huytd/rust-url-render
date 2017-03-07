@@ -1,0 +1,22 @@
+URL RENDER
+==========
+
+The small util to fetch web page data and convert to Markdown
+
+1. INSTALL
+
+  Clone from source:
+
+  $ git clone http://github.com/huytd/rust-url-render
+
+  Install with make:
+
+  $ make install
+
+  The binary will be ready in `/usr/local/bin/render`
+
+2. USAGE
+
+  Pass the URL via stdin, for example:
+
+  $ echo "https://some-url.com/article.html" | render
